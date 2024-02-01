@@ -5,6 +5,9 @@ class Vehicle {
         this.year = year;
     }
 
+
+    
+
     honk() {
         return 'Beep.';
     }
