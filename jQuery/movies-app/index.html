@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Rate Movies!</h1>
+    <form class="movie-form" autocomplete="off">
+        <label for="name">
+            <input type="text" id="name" minlength="2" placeholder="Enter movie name">
+        </label>
+        <label for="rating">
+            <input type="number" id="rating" min="0" max="10" placeholder="Enter movie rating">
+        </label>
+        <input type="submit">
+
+        <label for="sort-by">Sort By:
+            <select name="sort-by" id="sort-by">
+                <option>Select One</option>
+                <optgroup label="Title">
+                    <option value="ascending"> Title: A - Z </option>
+                    <option value="descending"> Title: Z - A </option>
+                </optgroup>
+                <optgroup label="Rating">
+                    <option value="highest"> Rating: Highest First </option>
+                    <option value="lowest"> Rating: Lowest First</option>
+                </optgroup>
+            </select>
+        </label>
+    </form>
+    <ul class="movie-list">
+
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+        </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Rate Movies!</h1>
+    <form class="movie-form" autocomplete="off">
+        <label for="name">
+            <input type="text" id="name" minlength="2" placeholder="Enter movie name">
+        </label>
+        <label for="rating">
+            <input type="number" id="rating" min="0" max="10" placeholder="Enter movie rating">
+        </label>
+        <input type="submit" id="submit">
+        <label for="sort-by">Sort By: 
+            <select name="sort-by" id="sort-by"> 
+                <option value="select-category">Title / Rating</option>
+                <optgroup label="Title">
+                    <option>Title: A - Z</option>
+                    <option>Title: Z - A</option>
+                  </optgroup>
+                  <optgroup label="Rating">
+                    <option>Rating: Lowest First</option>
+                    <option>Rating: Highest First</option>
+                  </optgroup>
+                <option value="select-category">Select One</option>
+                <option value="title"> Title </option>
+                <option value="rating"> Rating</option>
+              </select>
+        </label>
+        <label for="alphabetical-order">Alphabetical Order: 
+            <select name="alphabetical-order" id="alphabetical-order"> 
+                <option value="select-category">Select One</option>
+                <option value="ascending"> Ascending </option>
+                <option value="descending"> Descending</option>
+              </select>
+        </label>
+        <label for="numerical-order">Numerical Order: 
+            <select name="numerical-order" id="numerical-order"> 
+                <option value="select-category">Select One</option>
+                <option value="highest"> Highest First </option>
+                <option value="lowest"> Lowest First</option>
+              </select>
+        </label>
+    </form>
+    <ul class="movie-list">
+
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html> -->
