@@ -1,0 +1,35 @@
+body {
+    height: 100%;
+    background-color: rgb(49, 46, 46);
+    color: white;
+}
+
+.form-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.gifs {
+    margin: 10px;
+}
+
+#delete {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: lightblue;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: aqua;
+}
+
+input[type=text] {
+    padding: 5px;
+    border-radius: 5px;
+}
